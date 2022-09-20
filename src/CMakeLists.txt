@@ -1,4 +1,4 @@
-if(NOT DEFINED INSTALL_DIR)
+if(NOT DEFINED INSTALL_DEST)
 	if(UNIX)
 		set(INSTALL_DEST "/bin")
 	else()
